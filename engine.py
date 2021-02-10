@@ -49,10 +49,4 @@ if __name__ == '__main__':
     engine = TTSEngine("sounds/sounds.csv")
     while True:
         input_text = input("Type a Persian string: ")
-        engine.make_sounds(input_text)
-
-
-
-
-
-
+        engine.make_sounds(input_text)ط
