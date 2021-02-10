@@ -1,7 +1,5 @@
 import csv 
-import pyaudio
 from pydub import AudioSegment 
-import wave
 
 class TTSEngine:
     def __init__(self, csv_file):
