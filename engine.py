@@ -31,6 +31,8 @@ class TTSEngine:
                 sound_file = data_values.index(word)
                 temp_sound = AudioSegment.from_file(f'sounds/{data_keys[sound_file]}', format="wav")
                 output_sentence.append(temp_sound)
+            else:
+                pass 
 
 
         base_sound = output_sentence[0]
